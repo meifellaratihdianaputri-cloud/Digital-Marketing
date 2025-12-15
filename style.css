@@ -1,0 +1,109 @@
+/* BACKGROUND LAUT */
+.ocean-bg {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #01579b, #0288d1, #4fc3f7);
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+}
+
+/* GLASS EFFECT */
+.glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    color: white;
+}
+
+/* LOGIN */
+.login-box {
+    width: 320px;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+.login-box button {
+    background: #00e5ff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* HEADER */
+header {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* SECTION */
+.upload-section, .ai-result {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* IMAGE */
+.preview-img {
+    width: 200px;
+    margin-top: 15px;
+    display: none;
+    border-radius: 10px;
+}
+
+/* BUTTON */
+.ai-result button {
+    background: #00e676;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* IKAN ANIMATION */
+.fish {
+    position: absolute;
+    font-size: 40px;
+    animation: swim 15s linear infinite;
+}
+
+.fish1 {
+    top: 20%;
+    animation-duration: 12s;
+}
+
+.fish2 {
+    top: 50%;
+    font-size: 50px;
+    animation-duration: 18s;
+}
+
+.fish3 {
+    top: 75%;
+    font-size: 45px;
+    animation-duration: 20s;
+}
+
+/* GERAK IKAN */
+@keyframes swim {
+    from {
+        left: -10%;
+    }
+    to {
+        left: 110%;
+    }
+}
