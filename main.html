@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="ocean-bg">
+
+<!-- Ikan -->
+<div class="fish fish1">🐟</div>
+<div class="fish fish2">🐠</div>
+<div class="fish fish3">🐬</div>
+
+<header class="glass">
+    <h1>🚀 Starting Business Marketing</h1>
+    <p>Produk Unggulan: <b>EcoGlow Bottle</b></p>
+</header>
+
+<section class="upload-section glass">
+    <h2>📷 Upload Gambar Produk</h2>
+    <input type="file" accept="image/*" onchange="previewImage(event)">
+    <img id="preview" class="preview-img">
+</section>
+
+<section class="ai-result glass">
+    <h2>🤖 Analisis AI Marketing</h2>
+    <button onclick="analyzeProduct()">Mulai Analisa</button>
+    <div id="result"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
